@@ -1,0 +1,36 @@
+:root {
+    --navigator-bar-height: 48px;
+    --notification-bar-height: 24px;
+    --bar-background: rgba(0, 0, 0, 0.5);
+    --bar-z-index: 20;
+    --mobile-inside-size-width: 320px;
+    --mobile-inside-size-height: 568px;
+
+    --clock-size: 150px;
+}
+
+* {
+    user-select: none !important;
+}
+
+html {
+    overflow: hidden !important;
+}
+
+body {
+    overflow: hidden !important;
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.cellphone {
+    position: absolute !important;
+    right: 0;
+    border: 2px solid rgb(255, 0, 255);
+    bottom: 15px;
+}
